@@ -24,14 +24,14 @@ myhelper.py - Miscellaneous support functions.
 
 Directory Information:
 
-resources – directory where the training files are saved.
+resources –  training files directory saved.
 
-dlib_resources – directory of files used by dlib.
+dlib_resources – files directory dlib.
 
-output - directory where the classified images (facial recognition) are saved.
+output - classified images (facial recognition) saved..
 
-production - directory of images that will be analyzed for classification. It can contain multiple faces.
+production - images that will be analyzed for classification. It can contain multiple faces.
 
-test - directory of images for model testing. These images SHOULD HAVE ONLY ONE FACE and the file should start with face name in the format "facename_xxxxx.jpeg". The image extent can be changed in the program.
+test - images for model testing. These images SHOULD HAVE ONLY ONE FACE and the file name should start with face name in the format "facename_xxxxx.jpeg". The image extent can be changed in the program.
 
-train - directory of images for model training. These images SHOULD ALSO HAVE ONLY ONE FACE and the file should start with face name in the format "facename_xxxxx_xxxxx.jpeg". The image extent can be changed in the program.
+train - directory of images for model training. These images SHOULD ALSO HAVE ONLY ONE FACE and the file should start with face name in the format "facename_xxxxx_xxxxx.jpeg".
