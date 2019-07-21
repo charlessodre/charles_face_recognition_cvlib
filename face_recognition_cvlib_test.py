@@ -3,7 +3,7 @@
 # Create: 2019/07
 # Info: This program is responsible for evaluating the performance of the model trained by the "face_recognition_cvlib_train.py".
 # This program provides some statistics about face recognition.
-# Obs: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
+# Note: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
 # Also in course "Reconhecimento de Faces e de Objetos com Python e Dlib" of Jones Granatyr (https://iaexpert.com.br/) in Udemy
 
 

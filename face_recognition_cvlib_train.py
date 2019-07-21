@@ -2,7 +2,7 @@
 # Github: https://github.com/charlessodre/
 # Create: 2019/07
 # Info: This program is for the training to extract the main characteristics of the images. This program generates the files with the descriptors of the images.
-# Obs: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
+# Note: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
 # Also in course "Reconhecimento de Faces e de Objetos com Python e Dlib" of Jones Granatyr (https://iaexpert.com.br/) in Udemy
 
 

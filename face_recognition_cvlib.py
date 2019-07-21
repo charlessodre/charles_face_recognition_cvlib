@@ -4,7 +4,7 @@
 # Info: This program is responsible to identifier a persons into images.
 # After the training (face_recognition_cvlib_train.py) and testing (face_recognition_cvlib_test.py ) of the model,
 # this program is responsible for batch processing to classified and save the image with the classification assigned to it.
-# Obs: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
+# Note: Based at work of Arun Ponnusamy. Visit: https://www.arunponnusamy.com.
 # Also in course "Reconhecimento de Faces e de Objetos com Python e Dlib" of Jones Granatyr (https://iaexpert.com.br/) in Udemy
 
 
