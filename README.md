@@ -1,5 +1,8 @@
 Computational Vision - Studies on face detection and facial recognition with Python. This study uses the dlib, opencv and cvlib libraries to detect and classify faces by assigning a name.
 
+cvlib : https://github.com/arunponnusamy/cvlib
+opencv: https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
+
 -------------------------------------------------------------------------------------------------------------
 
 Information about "visao_compu.yml " file:
