@@ -92,10 +92,6 @@ frame_height = int(webcam.get(4))
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out_webcam = cv2.VideoWriter('output_webcam.avi',fourcc, 20.0, (frame_width,frame_height))
 
-# Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
- #= cv2.VideoWriter('.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
-
-
 # loop through frames
 while webcam.isOpened():
 
