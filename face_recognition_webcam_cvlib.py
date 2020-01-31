@@ -40,6 +40,8 @@ distance_threshold = 0.45
 # Default is 05 descriptors
 five_descriptors = True
 
+save_video = True
+
 # ----------------------- Resources Dlib -------------------------------------------
 
 if five_descriptors:
@@ -80,6 +82,19 @@ webcam = cv2.VideoCapture(0)
 if not webcam.isOpened():
     print("Could not open webcam!")
     exit()
+
+# Default resolutions of the frame are obtained.The default resolutions are system dependent.
+# We convert the resolutions from float to integer.
+frame_width = int(webcam.get(3))
+frame_height = int(webcam.get(4))
+
+# Define the codec and create VideoWriter object
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
+out_webcam = cv2.VideoWriter('output_webcam.avi',fourcc, 20.0, (frame_width,frame_height))
+
+# Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
+ #= cv2.VideoWriter('.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
+
 
 # loop through frames
 while webcam.isOpened():
@@ -161,14 +176,18 @@ while webcam.isOpened():
     # display output
     cv2.imshow("Real-time face detection", frame)
 
+    if save_video:
+        # write the flipped frame
+        out_webcam.write(frame)
+
     # press "Q" to stop
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-    # cv2.imwrite(output_path + current_file_name, frame)
-
 # release resources
 webcam.release()
+out_webcam.release()
+
 cv2.destroyAllWindows()
 
 print(" ----------------- End Program -----------------")
